@@ -4,6 +4,12 @@
         margin: 0 auto;
     }
 
+    /* is there an easier way to move the footer? */
+    .wrapper {
+        min-height: 82.9%;
+        margin-bottom: 0;
+    } 
+
     img {
         max-width: 175px;
     }
