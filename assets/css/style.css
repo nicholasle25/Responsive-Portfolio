@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /* min-height: 100%; */
+}
+
+body {
+    background-image: url("../images/embossed-diamond.png");
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 0;
+} 
+.content-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 25px 0px;
+    padding-bottom: 25px;
+    border-bottom: solid #dddddd;
+}
+
+p, #contact-button, #portfolio-button, #about-button {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 200px;
+    border: solid #dddddd;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+#header {
+    background: #ffffff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    margin-bottom: 25px;
+    padding: 25px 0px;
+}
+
+#about {
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    padding: 25px;
+    width: 910px;
+    margin: 0 auto;
+    /* Can you have it auto height by following the length of the photo? */
+    height: 393.59px;
+
+}
+
+#portfolio {
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    padding: 25px;
+    width: 910px;
+    margin: 0 auto;
+}
+
+#contact {
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    padding: 25px;
+    width: 910px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: #666666;
+    color: #ffffff;
+    font-size: 10pt;
+    text-align: center;
+    padding-top: 25px;
+    clear: left;
+    border-top: 8px solid #4aaaa5;
+
+}
+
+#contact-button, #portfolio-button, #about-button {
+    /* display: inline; */
+    float: right;
+    margin: 0 0 0 20px;
+} 
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+  }
