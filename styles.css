@@ -71,5 +71,41 @@
 }
 
 @media (max-width: 640px) {
+    .content-wrap {
+        width: 590px;
+        margin: 0 auto;
+    }
+
+    /* is there an easier way to move the footer? */
+    .wrapper {
+        min-height: 80%;
+        margin-bottom: 0;
+    } 
+
+    h1 {
+        display: block;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+    #about {
+        width: 534px;
+        float: left;
+        margin: 0 25px;
+    }
+
+    #portfolio {
+        width: 534px;
+        float: left;
+        margin: 0 25px;
+    }
+
+    #contact {
+        width: 534px;
+        float: left;
+        margin: 0 25px;
+    }
 
 }
