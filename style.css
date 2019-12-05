@@ -1,0 +1,26 @@
+@media (max-width: 980px) {
+    .content-wrap {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 175px;
+    }
+
+    #about {
+        /* 910-60 */
+        width: 600px;
+        float: left;
+        margin: 0 50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+}
