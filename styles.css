@@ -17,19 +17,19 @@
     #about {
         width: 600px;
         float: left;
-        margin: 0 50px;
+        margin: 0 50px 25px;
     }
 
     #portfolio {
         width: 600px;
         float: left;
-        margin: 0 50px;
+        margin: 0 50px 25px;
     }
 
     #contact {
         width: 600px;
         float: left;
-        margin: 0 50px;
+        margin: 0 50px 25px;
     }
 
 }
@@ -53,19 +53,19 @@
     #about {
         width: 658px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
     }
 
     #portfolio {
         width: 658px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
     }
 
     #contact {
         width: 658px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
     }
 
 }
@@ -78,7 +78,7 @@
 
     /* is there an easier way to move the footer? */
     .wrapper {
-        min-height: 80%;
+        min-height: 91.8%;
         margin-bottom: 0;
     } 
 
@@ -93,27 +93,38 @@
         float:left;
         padding: 0;
     }
-
+/* issue with image and about box expanding */
     img {
-        max-width: 150px;
+        max-width: 300px;
+        align-content: center;
+        margin: 25px;
     }
 
     #about {
         width: 534px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
+    }
+
+    p {
+       clear: left;
     }
 
     #portfolio {
         width: 534px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
     }
 
     #contact {
         width: 534px;
         float: left;
-        margin: 0 25px;
+        margin: 0 25px 25px;
     }
+
+    #contact-button, #portfolio-button, #about-button {
+        /* display: inline; */
+        text-align: center;
+        margin: 10px 0 10px 20px;
 
 }

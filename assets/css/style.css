@@ -61,10 +61,9 @@ img {
     border-style: solid;
     padding: 25px;
     width: 910px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     /* Can you have it auto height by following the length of the photo? */
-    height: 393.59px;
-
+    /* height: 393.59px; */
 }
 
 #portfolio {
@@ -73,7 +72,7 @@ img {
     border-style: solid;
     padding: 25px;
     width: 910px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
 }
 
 #contact {
@@ -82,7 +81,7 @@ img {
     border-style: solid;
     padding: 25px;
     width: 910px;
-    margin: 0 auto;
+    margin: 0 auto 25px;
 }
 
 .footer {
