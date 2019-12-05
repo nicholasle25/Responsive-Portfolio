@@ -72,7 +72,7 @@
 
 @media (max-width: 640px) {
     .content-wrap {
-        width: 590px;
+        width: 640px;
         margin: 0 auto;
     }
 
@@ -84,6 +84,14 @@
 
     h1 {
         display: block;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    #header {
+        float:left;
+        padding: 0;
     }
 
     img {
